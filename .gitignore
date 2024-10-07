@@ -1,0 +1,35 @@
+# Ignore Python compiled files
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+
+# Ignore Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Ignore virtual environment directories
+venv/
+env/
+.venv/
+.env/
+
+# Ignore system-specific files
+.DS_Store
+Thumbs.db
+
+# Ignore log and environment files
+*.log
+*.env
+*.ini
+*.envrc
+
+# Ignore Jupyter Notebook metadata
+*.ipynb-meta
+
+# Ignore data files (optional)
+data/
+*.csv
+*.xls
+*.xlsx
+*.parquet
+*.h5
